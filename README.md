@@ -46,3 +46,26 @@ c) requirements.txt
                     D. split the data
                     E. Store test and train data in that directory using to_csv
                     F. Return test and train data path
+
+
+7. components/data_transformation 
+    
+    steps : 
+
+        1. Import the below files. 
+
+                import sys
+                from src.logger import logging
+                from src.exception import CustomException
+                from dataclasses import dataclass
+                import os. 
+
+                    ----- below packages depends on requirement ----------
+                import pandas as pd
+                import numpy as np 
+                from sklearn.compose import ColumnTransformer
+                from sklearn.impute import SimpleImputer
+                from sklearn.pipeline import Pipeline
+                from sklearn.preprocessing import  StandardScaler,OneHotEncoder
+        
+        2. 
