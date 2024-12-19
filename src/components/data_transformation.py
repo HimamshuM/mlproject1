@@ -48,7 +48,7 @@ class DataTransformation:
             cat_pipeline = Pipeline(
                 steps=[
                     ("imputer",SimpleImputer(strategy='most_frequent')),
-                    ("onehotcoder", OneHotEncoder()),  # Outputs dense matrix
+                    ("onehotcoder", OneHotEncoder()),  
                     ("scelar", StandardScaler(with_mean=False))    # Avoid centering issue
                 ]
             )

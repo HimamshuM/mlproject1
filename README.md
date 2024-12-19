@@ -69,3 +69,6 @@ c) requirements.txt
                 from sklearn.preprocessing import  StandardScaler,OneHotEncoder
         
         2. 
+
+8. components/data_transformation: 
+    
