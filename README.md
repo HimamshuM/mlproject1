@@ -14,9 +14,9 @@ c) requirements.txt
 4- Create pipeline folder --> for pipeline creation. (train pipeline, prediction pipeline)
 
 5- Create belpw files :
-    a) exception.py
+    a) exception.py    --> Exception handling
     b) logging.py
-    c) utils.py
+    c) utils.py         --> common functionalities throut the project
 
 6- Component/data_ingestion : 
 
@@ -71,4 +71,8 @@ c) requirements.txt
         2. 
 
 8. components/data_transformation: 
+
+9. components/model_trainer:
     
+10. pipeline/prediction pipeline:
+
